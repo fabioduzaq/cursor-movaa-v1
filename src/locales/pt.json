@@ -1,0 +1,231 @@
+{
+  "common": {
+    "welcome": "Bem-vindo ao MoVaa",
+    "tagline": "A mudança que você quer ver no mundo",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "share": "Compartilhar",
+    "donate": "Doar",
+    "sign": "Assinar",
+    "signed": "Assinado",
+    "anonymous": "Anônimo",
+    "readMore": "Ler mais",
+    "readLess": "Ler menos",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "close": "Fechar"
+  },
+  "navigation": {
+    "home": "Início",
+    "petitions": "Petições",
+    "services": "Serviços",
+    "products": "Produtos",
+    "about": "Sobre Nós",
+    "contact": "Fale Conosco",
+    "help": "Central de Ajuda",
+    "press": "Imprensa",
+    "careers": "Trabalhe Conosco",
+    "feedback": "Envie Feedback",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso"
+  },
+  "petitions": {
+    "title": "Petições",
+    "featured": "Petições em Destaque",
+    "all": "Todas as Petições",
+    "create": "Criar Petição",
+    "sign": "Assinar Petição",
+    "signature": "Assinatura",
+    "signatures": "Assinaturas",
+    "signatureCount": "{{count}} assinatura",
+    "signatureCount_plural": "{{count}} assinaturas",
+    "goal": "Meta",
+    "progress": "Progresso",
+    "createdBy": "Criado por",
+    "category": "Categoria",
+    "tags": "Tags",
+    "description": "Descrição",
+    "details": "Detalhes",
+    "signForm": {
+      "title": "Assinar Petição",
+      "fullName": "Nome Completo",
+      "fullNamePlaceholder": "Digite seu nome completo",
+      "email": "E-mail",
+      "emailPlaceholder": "seu@email.com",
+      "anonymous": "Assinar anonimamente",
+      "anonymousDescription": "Sua assinatura não será exibida publicamente",
+      "googleSignIn": "Entrar com Google",
+      "terms": "Ao assinar, você concorda com nossos",
+      "termsLink": "Termos de Uso",
+      "privacyLink": "Política de Privacidade",
+      "submit": "Assinar Agora",
+      "validating": "Validando...",
+      "success": "Petição assinada com sucesso!",
+      "error": "Erro ao assinar petição. Tente novamente."
+    },
+    "filters": {
+      "all": "Todas",
+      "popularity": "Popularidade",
+      "date": "Data",
+      "signatures": "Assinaturas",
+      "recent": "Recentes",
+      "trending": "Em Alta"
+    },
+    "thankYou": {
+      "title": "Obrigado pela sua assinatura!",
+      "message": "Sua voz faz a diferença. Compartilhe esta causa e ajude a alcançar mais pessoas.",
+      "donate": "Fazer uma Doação",
+      "share": "Compartilhar Petição"
+    }
+  },
+  "donations": {
+    "title": "Doações",
+    "amount": "Valor",
+    "currency": "Moeda",
+    "method": "Método de Pagamento",
+    "methods": {
+      "pix": "PIX",
+      "boleto": "Boleto",
+      "creditCard": "Cartão de Crédito",
+      "paypal": "PayPal",
+      "stripe": "Stripe"
+    },
+    "form": {
+      "title": "Fazer uma Doação",
+      "name": "Nome",
+      "email": "E-mail",
+      "amount": "Valor da Doação",
+      "anonymous": "Doação Anônima",
+      "message": "Mensagem (opcional)",
+      "messagePlaceholder": "Deixe uma mensagem de apoio...",
+      "submit": "Doar Agora",
+      "processing": "Processando...",
+      "success": "Doação realizada com sucesso!",
+      "error": "Erro ao processar doação. Tente novamente."
+    },
+    "thankYou": {
+      "title": "Obrigado pela sua doação!",
+      "message": "Sua generosidade está fazendo a diferença. Você receberá um recibo por e-mail em breve.",
+      "receipt": "Recibo enviado para"
+    }
+  },
+  "social": {
+    "shareOn": "Compartilhar no",
+    "facebook": "Facebook",
+    "twitter": "Twitter/X",
+    "whatsapp": "WhatsApp",
+    "copyLink": "Copiar Link",
+    "linkCopied": "Link copiado!",
+    "sharePetition": "Compartilhar Petição"
+  },
+  "services": {
+    "title": "Serviços",
+    "subtitle": "Conheça os serviços que oferecemos",
+    "contact": "Entre em Contato",
+    "contactForm": {
+      "title": "Formulário de Contato",
+      "name": "Nome",
+      "email": "E-mail",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "submit": "Enviar",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    }
+  },
+  "products": {
+    "title": "Produtos",
+    "subtitle": "Conheça nossos produtos",
+    "viewDetails": "Ver Detalhes",
+    "buyNow": "Comprar Agora"
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "mission": "Missão",
+    "vision": "Visão",
+    "values": "Valores",
+    "history": "História"
+  },
+  "careers": {
+    "title": "Trabalhe Conosco",
+    "subtitle": "Junte-se à nossa equipe e faça a diferença",
+    "openPositions": "Vagas Abertas",
+    "apply": "Candidatar-se"
+  },
+  "press": {
+    "title": "Imprensa",
+    "subtitle": "Kit de Imprensa e Releases",
+    "downloadKit": "Baixar Kit de Imprensa",
+    "releases": "Releases"
+  },
+  "help": {
+    "title": "Central de Ajuda",
+    "subtitle": "Encontre respostas para suas dúvidas",
+    "faq": "Perguntas Frequentes",
+    "contactSupport": "Contatar Suporte"
+  },
+  "contact": {
+    "title": "Fale Conosco",
+    "subtitle": "Estamos aqui para ajudar",
+    "form": {
+      "title": "Formulário de Contato",
+      "name": "Nome",
+      "email": "E-mail",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "submit": "Enviar"
+    }
+  },
+  "feedback": {
+    "title": "Envie Feedback",
+    "subtitle": "Sua opinião é importante para nós",
+    "form": {
+      "title": "Formulário de Feedback",
+      "name": "Nome",
+      "email": "E-mail",
+      "type": "Tipo de Feedback",
+      "message": "Mensagem",
+      "submit": "Enviar Feedback"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização",
+    "introduction": "Introdução",
+    "dataCollection": "Coleta de Dados",
+    "dataUse": "Uso dos Dados",
+    "dataProtection": "Proteção dos Dados",
+    "yourRights": "Seus Direitos",
+    "contact": "Contato"
+  },
+  "terms": {
+    "title": "Termos de Uso",
+    "lastUpdated": "Última atualização",
+    "acceptance": "Aceitação dos Termos",
+    "use": "Uso da Plataforma",
+    "userContent": "Conteúdo do Usuário",
+    "prohibited": "Atividades Proibidas",
+    "intellectualProperty": "Propriedade Intelectual",
+    "limitation": "Limitação de Responsabilidade"
+  },
+  "footer": {
+    "about": "Sobre",
+    "legal": "Legal",
+    "social": "Redes Sociais",
+    "newsletter": "Newsletter",
+    "subscribe": "Inscrever-se",
+    "emailPlaceholder": "Seu e-mail",
+    "allRightsReserved": "Todos os direitos reservados"
+  }
+}
