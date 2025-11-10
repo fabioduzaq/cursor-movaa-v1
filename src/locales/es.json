@@ -1,0 +1,231 @@
+{
+  "common": {
+    "welcome": "Bienvenido a MoVaa",
+    "tagline": "El cambio que quieres ver en el mundo",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "share": "Compartir",
+    "donate": "Donar",
+    "sign": "Firmar",
+    "signed": "Firmado",
+    "anonymous": "Anónimo",
+    "readMore": "Leer más",
+    "readLess": "Leer menos",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "close": "Cerrar"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "petitions": "Peticiones",
+    "services": "Servicios",
+    "products": "Productos",
+    "about": "Sobre Nosotros",
+    "contact": "Contáctanos",
+    "help": "Centro de Ayuda",
+    "press": "Prensa",
+    "careers": "Trabaja con Nosotros",
+    "feedback": "Enviar Comentarios",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso"
+  },
+  "petitions": {
+    "title": "Peticiones",
+    "featured": "Peticiones Destacadas",
+    "all": "Todas las Peticiones",
+    "create": "Crear Petición",
+    "sign": "Firmar Petición",
+    "signature": "Firma",
+    "signatures": "Firmas",
+    "signatureCount": "{{count}} firma",
+    "signatureCount_plural": "{{count}} firmas",
+    "goal": "Meta",
+    "progress": "Progreso",
+    "createdBy": "Creado por",
+    "category": "Categoría",
+    "tags": "Etiquetas",
+    "description": "Descripción",
+    "details": "Detalles",
+    "signForm": {
+      "title": "Firmar Petición",
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Ingrese su nombre completo",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "anonymous": "Firmar anónimamente",
+      "anonymousDescription": "Su firma no se mostrará públicamente",
+      "googleSignIn": "Iniciar sesión con Google",
+      "terms": "Al firmar, acepta nuestros",
+      "termsLink": "Términos de Uso",
+      "privacyLink": "Política de Privacidad",
+      "submit": "Firmar Ahora",
+      "validating": "Validando...",
+      "success": "¡Petición firmada con éxito!",
+      "error": "Error al firmar petición. Por favor, intente nuevamente."
+    },
+    "filters": {
+      "all": "Todas",
+      "popularity": "Popularidad",
+      "date": "Fecha",
+      "signatures": "Firmas",
+      "recent": "Recientes",
+      "trending": "Tendencias"
+    },
+    "thankYou": {
+      "title": "¡Gracias por tu firma!",
+      "message": "Tu voz hace la diferencia. Comparte esta causa y ayuda a llegar a más personas.",
+      "donate": "Hacer una Donación",
+      "share": "Compartir Petición"
+    }
+  },
+  "donations": {
+    "title": "Donaciones",
+    "amount": "Cantidad",
+    "currency": "Moneda",
+    "method": "Método de Pago",
+    "methods": {
+      "pix": "PIX",
+      "boleto": "Boleto",
+      "creditCard": "Tarjeta de Crédito",
+      "paypal": "PayPal",
+      "stripe": "Stripe"
+    },
+    "form": {
+      "title": "Hacer una Donación",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "amount": "Cantidad de Donación",
+      "anonymous": "Donación Anónima",
+      "message": "Mensaje (opcional)",
+      "messagePlaceholder": "Deje un mensaje de apoyo...",
+      "submit": "Donar Ahora",
+      "processing": "Procesando...",
+      "success": "¡Donación completada con éxito!",
+      "error": "Error al procesar donación. Por favor, intente nuevamente."
+    },
+    "thankYou": {
+      "title": "¡Gracias por tu donación!",
+      "message": "Tu generosidad está marcando la diferencia. Recibirás un recibo por correo electrónico en breve.",
+      "receipt": "Recibo enviado a"
+    }
+  },
+  "social": {
+    "shareOn": "Compartir en",
+    "facebook": "Facebook",
+    "twitter": "Twitter/X",
+    "whatsapp": "WhatsApp",
+    "copyLink": "Copiar Enlace",
+    "linkCopied": "¡Enlace copiado!",
+    "sharePetition": "Compartir Petición"
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Conoce los servicios que ofrecemos",
+    "contact": "Contáctanos",
+    "contactForm": {
+      "title": "Formulario de Contacto",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar mensaje. Por favor, intente nuevamente."
+    }
+  },
+  "products": {
+    "title": "Productos",
+    "subtitle": "Conoce nuestros productos",
+    "viewDetails": "Ver Detalles",
+    "buyNow": "Comprar Ahora"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "mission": "Misión",
+    "vision": "Visión",
+    "values": "Valores",
+    "history": "Historia"
+  },
+  "careers": {
+    "title": "Trabaja con Nosotros",
+    "subtitle": "Únete a nuestro equipo y marca la diferencia",
+    "openPositions": "Vacantes Abiertas",
+    "apply": "Aplicar"
+  },
+  "press": {
+    "title": "Prensa",
+    "subtitle": "Kit de Prensa y Comunicados",
+    "downloadKit": "Descargar Kit de Prensa",
+    "releases": "Comunicados"
+  },
+  "help": {
+    "title": "Centro de Ayuda",
+    "subtitle": "Encuentra respuestas a tus preguntas",
+    "faq": "Preguntas Frecuentes",
+    "contactSupport": "Contactar Soporte"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudar",
+    "form": {
+      "title": "Formulario de Contacto",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar"
+    }
+  },
+  "feedback": {
+    "title": "Enviar Comentarios",
+    "subtitle": "Tu opinión es importante para nosotros",
+    "form": {
+      "title": "Formulario de Comentarios",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "type": "Tipo de Comentario",
+      "message": "Mensaje",
+      "submit": "Enviar Comentarios"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización",
+    "introduction": "Introducción",
+    "dataCollection": "Data Collection",
+    "dataUse": "Uso de Datos",
+    "dataProtection": "Protección de Datos",
+    "yourRights": "Tus Derechos",
+    "contact": "Contacto"
+  },
+  "terms": {
+    "title": "Términos de Uso",
+    "lastUpdated": "Última actualización",
+    "acceptance": "Aceptación de Términos",
+    "use": "Uso de la Plataforma",
+    "userContent": "Contenido del Usuario",
+    "prohibited": "Actividades Prohibidas",
+    "intellectualProperty": "Propiedad Intelectual",
+    "limitation": "Limitación de Responsabilidad"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "legal": "Legal",
+    "social": "Redes Sociales",
+    "newsletter": "Boletín",
+    "subscribe": "Suscribirse",
+    "emailPlaceholder": "Tu correo electrónico",
+    "allRightsReserved": "Todos los derechos reservados"
+  }
+}
