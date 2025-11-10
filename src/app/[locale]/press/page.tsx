@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Download, FileText } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { formatDate } from '@/lib/utils';
 
 const mockReleases = [
   {
@@ -52,7 +53,7 @@ export default async function PressPage({
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <h3 className="text-xl font-bold text-foreground">{release.title}</h3>
                   <span className="text-sm text-muted-foreground sm:ml-4">
-                    {new Date(release.date).toLocaleDateString(locale)}
+                    {formatDate(release.date, locale === 'pt' ? 'pt-BR' : locale === 'en' ? 'en-US' : 'es-ES')}
                   </span>
                 </div>
                 <p className="text-muted-foreground mb-4">{release.summary}</p>

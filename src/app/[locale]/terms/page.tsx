@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { FileText, Scale, AlertTriangle } from 'lucide-react';
+import { formatDate } from '@/lib/utils';
 
 export default async function TermsPage({
   params: { locale },
@@ -15,7 +16,7 @@ export default async function TermsPage({
           <Scale className="h-16 w-16 text-primary-600 mx-auto mb-4" />
           <h1 className="text-4xl font-bold text-foreground mb-4">{t('title')}</h1>
           <p className="text-muted-foreground">
-            {t('lastUpdated')}: {new Date().toLocaleDateString(locale)}
+            {t('lastUpdated')}: {formatDate(new Date(), locale === 'pt' ? 'pt-BR' : locale === 'en' ? 'en-US' : 'es-ES')}
           </p>
         </div>
 

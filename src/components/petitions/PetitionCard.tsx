@@ -1,12 +1,11 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Heart, TrendingUp, Clock, User } from 'lucide-react';
 import { Petition } from '@/types';
-import { formatNumber, calculateProgress, truncateText } from '@/lib/utils';
+import { formatNumber, calculateProgress, truncateText, formatDate } from '@/lib/utils';
 import { Button } from '@/components/ui/Button';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 
@@ -16,7 +15,7 @@ interface PetitionCardProps {
 
 export function PetitionCard({ petition }: PetitionCardProps) {
   const t = useTranslations('petitions');
-  const locale = useTranslations('common').raw('locale') || 'pt';
+  const locale = useLocale();
 
   const progress = calculateProgress(petition.signatureCount, petition.goal);
 
@@ -59,7 +58,7 @@ export function PetitionCard({ petition }: PetitionCardProps) {
           </div>
           <div className="flex items-center gap-1">
             <Clock className="h-4 w-4" />
-            <span>{new Date(petition.createdAt).toLocaleDateString(locale)}</span>
+            <span>{formatDate(petition.createdAt, locale === 'pt' ? 'pt-BR' : locale === 'en' ? 'en-US' : 'es-ES')}</span>
           </div>
         </div>
         {petition.goal && (

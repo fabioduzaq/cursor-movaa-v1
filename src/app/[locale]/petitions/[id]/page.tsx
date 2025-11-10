@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Heart, TrendingUp, Clock, User, Share2 } from 'lucide-react';
-import { formatNumber, calculateProgress } from '@/lib/utils';
+import { formatNumber, calculateProgress, formatDate } from '@/lib/utils';
 import { Petition } from '@/types';
 import { Button } from '@/components/ui/Button';
 import { ProgressBar } from '@/components/ui/ProgressBar';
@@ -160,7 +160,7 @@ async function PetitionDetails({ params }: { params: { id: string; locale: strin
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-2">
                   <Clock className="h-4 w-4" />
                   <span>
-                    {new Date(petition.createdAt).toLocaleDateString(locale)}
+                    {formatDate(petition.createdAt, locale === 'pt' ? 'pt-BR' : locale === 'en' ? 'en-US' : 'es-ES')}
                   </span>
                 </div>
               </div>
