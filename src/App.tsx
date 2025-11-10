@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { GoogleOAuthProvider } from '@react-oauth/google'
-import { Helmet } from 'react-helmet-async'
+import { HelmetProvider, Helmet } from 'react-helmet-async'
 import Layout from '@/components/layout/Layout'
 import { APP_CONFIG } from '@/config'
 import { useGTM, useGoogleAnalytics } from '@/hooks/useGTM'
@@ -29,17 +29,17 @@ function App() {
   useGoogleAnalytics()
 
   return (
-    <GoogleOAuthProvider clientId={APP_CONFIG.googleClientId}>
-      <BrowserRouter>
-        <Helmet>
-          <title>{APP_CONFIG.name} - {APP_CONFIG.tagline}</title>
-          <meta name="description" content="Plataforma de Petições e Causas Sociais" />
-          <meta property="og:title" content={`${APP_CONFIG.name} - ${APP_CONFIG.tagline}`} />
-          <meta property="og:description" content="Plataforma de Petições e Causas Sociais" />
-          <meta property="og:type" content="website" />
-        </Helmet>
-
-        <Layout>
+    <HelmetProvider>
+      <Helmet>
+        <title>{APP_CONFIG.name} - {APP_CONFIG.tagline}</title>
+        <meta name="description" content="Plataforma de Petições e Causas Sociais" />
+        <meta property="og:title" content={`${APP_CONFIG.name} - ${APP_CONFIG.tagline}`} />
+        <meta property="og:description" content="Plataforma de Petições e Causas Sociais" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+      <GoogleOAuthProvider clientId={APP_CONFIG.googleClientId}>
+        <BrowserRouter>
+          <Layout>
           <Routes>
             <Route path={ROUTES.home} element={<HomePage />} />
             <Route path={ROUTES.petitions} element={<PetitionsPage />} />
@@ -58,9 +58,10 @@ function App() {
             <Route path={ROUTES.privacy} element={<PrivacyPage />} />
             <Route path={ROUTES.terms} element={<TermsPage />} />
           </Routes>
-        </Layout>
-      </BrowserRouter>
-    </GoogleOAuthProvider>
+          </Layout>
+        </BrowserRouter>
+      </GoogleOAuthProvider>
+    </HelmetProvider>
   )
 }
 
